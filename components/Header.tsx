@@ -44,12 +44,13 @@ export default function GameHeader({playerTurn, resetButton}) {
   );
 }
 const ResetButton = styled.button`
-  color: aquamarine;
+  border-radius: .2rem;
+  color: black;
 	cursor: pointer;
-  background-color: transparent;
+  background-color: aquamarine;
   border: 3px solid aquamarine;
-  padding: 0.25em;
-  font-size: 1.25em;
+  padding: 0.25rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
 `
 
