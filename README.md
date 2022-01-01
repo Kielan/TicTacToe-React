@@ -6,7 +6,7 @@ Helpers
 
 initialPlayerOptionXorO - choose "x" or "o" as Marker randomly
 equals3 - (a, b, c) => return a == b && b == c && a != ""
-handleWinner - check if 3 horiz, vert or diag Markers return false "tue" "x" or "o"
+handleWinner - check if 3 horiz, vert or diag Markers return false or true. "x" or "o"
 
 Hooks 
 
